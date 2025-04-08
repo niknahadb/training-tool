@@ -1,0 +1,38 @@
+.tileContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.tile {
+  text-align: center;
+}
+
+.number {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.label {
+  margin-top: 5px;
+  font-size: 1rem;
+  color: #666;
+}
+
+.tile:nth-child(1) .number {
+  color: #4A90E2;
+}
+
+.tile:nth-child(2) .number {
+  color: #F5A623;
+}
+
+.tile:nth-child(3) .number {
+  color: #BD10E0;
+}

@@ -1,0 +1,79 @@
+html {
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+body, main {
+  margin: 0px;
+  min-height: 100%;
+  width: 100%;
+}
+
+#__next {
+  margin: 0;
+  height:100vh;
+  background-color: #F1F2F5;
+}
+
+.ant-menu-item-selected {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+.ant-menu-item:hover {
+  background-color: rgba(255, 255, 255, 0.25)  !important;
+}
+
+.ant-pro-sider-menu {
+  color: black;
+}
+
+.my-prefix-base-menu-horizontal-item-text, .ant-menu-title-content {
+  color: white; 
+}
+
+.my-prefix-base-menu-inline-group-item-title {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+div::-webkit-scrollbar {
+  display: none;
+}
+
+div {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.ant-menu-submenu-arrow::before,
+.ant-menu-submenu-arrow::after {
+  background: white !important;
+}
+
+.ant-menu-submenu, .ant-menu-submenu-inline {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 0px !important;
+}
+
+/* Snow Theme */
+.app .ql-snow.ql-toolbar {
+  display: block;
+  background: #eaecec;
+  border-top-left-radius: 0.5em;
+  border-top-right-radius: 0.5em;
+}
+
+/* Bubble Theme */
+.app .ql-bubble .ql-editor {
+  border: 1px solid #ccc;
+  border-radius: 0.5em;
+}
+
+.app .ql-editor {
+  min-height: 18em;
+}
+
+.themeSwitcher {
+  margin-top: 0.5em;
+  font-size: small;
+}
