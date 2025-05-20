@@ -9,8 +9,7 @@ Website now live at https://toolkit.codelabdavis.com/
 - [Technology Stack](#technology-stack)
 - [System Design](#system-design)
 - [Key Features](#key-features)
-- [Getting Started](#getting-started)
-- [Running the Project](#running-the-project)
+- [Lessons Learned](#lessons-learned)
 
 ## Technology Stack
 
@@ -44,69 +43,7 @@ Key relationships are enforced using Spring Boot and Hibernate constructors, ens
 - Video streaming via AWS S3 and CloudFront
 - Ability to clone courses, modules, and lessons
 - RESTful API with powerful filtering options in Spring Data JPA
-
-## Getting Started
-
-1. **Clone the repo**
-
-   ```bash
-   git clone https://github.com/your-org/training-tool.git
-   ```
-
-2. **Set up the database**
-
-   - Install PostgreSQL
-   - Update `src/main/resources/application.properties` with your database credentials
-
-3. **Start the backend**
-
-   ```bash
-   cd training-tool
-   ./mvnw spring-boot:run
-   ```
-
-4. **Start the frontend**
-
-   ```bash
-   cd frontend
-   npm install
-   npm start
-   ```
-
-## Running the Project
-
-- Visit `http://localhost:3000` to access the front-end
-- Use the login page to sign in or register based on your role
-- Explore dashboards and course content through the navigation menu
-
-## Screenshots
-
-> _Add images to `assets/images/` and reference them below_
-
-- **Login Page**
-
-  ```markdown
-  ![Login Page](assets/images/login.png)
-  ```
-
-- **PM Dashboard**
-
-  ```markdown
-  ![PM Dashboard](assets/images/pm_dashboard.png)
-  ```
-
-- **Board Dashboard**
-
-  ```markdown
-  ![Board Dashboard](assets/images/board_dashboard.png)
-  ```
-
-- **Course Viewer**
-
-  ```markdown
-  ![Course Viewer](assets/images/course_viewer.png)
-  ```
-
+   
 ## Lessons Learned
 
 Building this tool improved my skills in full-stack development, particularly integrating React with Spring Boot and managing database relationships. I also got to learn best practices for collaboration, declaring scope, and content versioning.
